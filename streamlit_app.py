@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # --- Code Cell ---
-df = pd.read_csv("Data/churn.csv")
+df = pd.read_csv("churn.csv")
 
 # --- Code Cell ---
 df.head()
