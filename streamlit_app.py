@@ -109,10 +109,6 @@ models = {
     "XGBoost": XGBClassifier(use_label_encoder=False, eval_metric='logloss')
 }
 
-
-# --- Code Cell ---
-!pip install xgboost
-
 # --- Code Cell ---
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
