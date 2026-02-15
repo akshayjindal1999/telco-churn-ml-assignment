@@ -4,6 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+import os
+os.makedirs("Models", exist_ok=True)
+
 # --- Code Cell ---
 df = pd.read_csv("churn.csv")
 
